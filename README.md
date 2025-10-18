@@ -35,7 +35,7 @@ Docker – Ensures consistent environments for development and deployment.
 
 CI/CD Pipelines – Automates testing and deployment of backend updates.
 
-
+**Team Roles** 
 | Role                       | Responsibilities in this Project                                                                                                                                                                                                                                                                                                    |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Backend Developer**      | Responsible for implementing the API endpoints (users, properties, bookings, payments, reviews), writing business logic, integrating authentication, and ensuring that the backend of the system works smoothly and securely.                                                                                                       |
