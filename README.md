@@ -34,3 +34,12 @@ Redis – Caching and session management for performance optimization.
 Docker – Ensures consistent environments for development and deployment.
 
 CI/CD Pipelines – Automates testing and deployment of backend updates.
+
+
+| Role                       | Responsibilities in this Project                                                                                                                                                                                                                                                                                                    |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Backend Developer**      | Responsible for implementing the API endpoints (users, properties, bookings, payments, reviews), writing business logic, integrating authentication, and ensuring that the backend of the system works smoothly and securely.                                                                                                       |
+| **Database Administrator** | Manages the design of the database schema (for example in PostgreSQL), implements indexing and optimization strategies, ensures data integrity, handles migrations and performance tuning.                                                                                                                                          |
+| **DevOps Engineer**        | Handles containerisation (via Docker), deployment pipelines (CI/CD), automates infrastructure, monitoring, and ensures the backend service is scalable, reliable and maintainable (includes tasks like caching with Redis, setting up asynchronous tasks with Celery).                                                              |
+| **QA Engineer**            | Ensures all backend features work as specified: tests API endpoints, validates edge-cases (bookings, payments, reviews), ensures quality and reliability of the system. This role “makes sure an application performs according to requirements… spots functional and non-functional defects.
+
