@@ -166,3 +166,42 @@ The database for the **Airbnb Clone Backend** is structured to efficiently manag
 * **Booking ⇄ Payment:** One-to-One (Each booking has one payment record).
 
 ---
+
+## ✨ Feature Breakdown
+
+### 👤 User Management
+
+Enables secure user registration, authentication, and profile management. Users can sign up as guests or hosts, update personal details, and manage their profiles. This ensures proper access control and personalization across the platform.
+
+---
+
+### 🏠 Property Management
+
+Allows hosts to create, update, and manage property listings with essential details such as title, description, location, and price per night. This feature forms the backbone of the platform by providing users with searchable and accessible accommodation options.
+
+---
+
+### 📅 Booking System
+
+Facilitates property reservations by allowing users to select available dates, confirm bookings, and view their booking history. It ensures real-time availability and prevents double-booking conflicts, enhancing user experience and trust.
+
+---
+
+### 💳 Payment Processing
+
+Integrates secure payment handling for completed bookings. This feature manages transaction details, payment confirmations, and records, ensuring smooth financial operations and secure transactions between guests and hosts.
+
+---
+
+### ⭐ Review System
+
+Allows guests to leave reviews and ratings after their stay. This feedback system helps maintain quality assurance, builds trust among users, and assists future guests in making informed decisions.
+
+---
+
+### ⚡ Data Optimization
+
+Implements database indexing and caching strategies to enhance data retrieval speed and reduce system load. This ensures the backend operates efficiently, even under high user activity or heavy data traffic.
+
+---
+
