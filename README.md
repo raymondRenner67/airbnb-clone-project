@@ -203,5 +203,39 @@ Allows guests to leave reviews and ratings after their stay. This feedback syste
 
 Implements database indexing and caching strategies to enhance data retrieval speed and reduce system load. This ensures the backend operates efficiently, even under high user activity or heavy data traffic.
 
+
+---
+
+## 🔒 API Security
+
+Securing the backend APIs is essential to protect user data, ensure reliable operations, and maintain user trust. The Airbnb Clone backend integrates multiple layers of security to safeguard sensitive information and prevent unauthorized access.
+
+### Key Security Measures
+
+* **Authentication**
+  Uses secure token-based authentication (e.g., JWT) to verify user identities. This ensures that only registered and verified users can access or modify their data.
+
+* **Authorization**
+  Implements role-based access control (RBAC) to manage permissions. For example, hosts can manage their property listings, while guests can only book and review properties.
+
+* **Data Encryption**
+  Sensitive data such as passwords and payment details are encrypted both in transit (using HTTPS) and at rest to prevent data breaches.
+
+* **Rate Limiting**
+  Restricts the number of API requests from a single IP address within a certain timeframe. This helps prevent abuse, such as brute-force attacks or denial-of-service (DoS) attempts.
+
+* **Input Validation & Sanitization**
+  All incoming data is validated and sanitized to prevent SQL injection, XSS, and other injection-based attacks.
+
+* **Secure Payment Handling**
+  Integrates trusted payment gateways to handle financial transactions, ensuring that sensitive payment data is processed securely and never stored directly on the server.
+
+### Importance of Security
+
+* **Protecting User Data:** Ensures that personal details, passwords, and booking information remain confidential.
+* **Securing Payments:** Prevents unauthorized access to financial information and fraudulent transactions.
+* **Maintaining Trust:** A secure system increases user confidence in the platform, encouraging continued use.
+* **Ensuring Compliance:** Helps meet data protection standards like GDPR or PCI DSS for payment processing.
+
 ---
 
